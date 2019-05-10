@@ -28,17 +28,17 @@ class ListEvents extends Component {
                             <div className="list-group-item list-group-item-action flex-column align-items-start">
 
                                 <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">{event.title}</h5>
-                                    <small>{event.date}</small>
+                                    <h5 className="mb-1">Customer Name: {event.title}</h5>
+                                    <small>Date: {event.date}</small>
                                 </div>
 
-                                <p className="mb-1">{event.description}</p>
-                                <p className="mb-1">{event.template}</p>
-                                <p className="mb-1">{event.contacts}</p>
-                                <p className="mb-1">{event.offer}</p>
-                                <p className="mb-1">{event.email}</p>
-                                <p className="mb-1">{event.resolution}</p>
-                                <p className="mb-1">{event.rate}</p>
+                                <p className="mb-1">Buisness: {event.description}</p>
+                                <p className="mb-1">Template: {event.template}</p>
+                                <p className="mb-1">Contacts: {event.contacts}</p>
+                                <p className="mb-1">Offer: {event.offer}</p>
+                                <p className="mb-1">Email: {event.email}</p>
+                                <p className="mb-1">Resolution: {event.resolution}</p>
+                                <p className="mb-1">Rate: {event.rate}</p>
 
                                 <div className="controls row">
                                     <button
@@ -64,7 +64,7 @@ class ListEvents extends Component {
                             </div>
                         </div>
                     )) :
-                        <div className="no-events text-center" style={{ padding: "100px 0" }}>OOOPSY: NO EVENTS REGISTERED</div>
+                        <div className="no-events text-center" style={{ padding: "100px 0" }}>NO EVENTS REGISTERED</div>
                 }
             </div>
         );

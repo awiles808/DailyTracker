@@ -103,7 +103,7 @@ class AddEvents extends Component {
     return (
       <div>
         <div className="text-center">
-          <h4>Daily Tracker</h4>
+          <h2>Daily Appointment Tracker</h2>
         </div>
         <hr />
 
